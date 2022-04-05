@@ -1,0 +1,16 @@
+{
+	"Name": "Takyon.ServerAds",
+	"Description": "Sends periodic server messages",
+	"LoadPriority": 1,
+	"RequiredOnClient": false,
+	"Version": "0.0.1",
+	"Scripts": [
+		{
+			"Path": "takyon_serverads.nut",
+			"RunOn": "SERVER",
+			"ServerCallback": {
+				"After": "takyon_serveradsInit"
+			}
+		}
+	]
+}
