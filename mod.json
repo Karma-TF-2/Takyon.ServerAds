@@ -7,7 +7,7 @@
 	"ConVars": [
 		{
 			"Name": "sa_time_between_ads",
-			"DefaultValue": "10" // time between ads being sent in seconds. DO NOT SPAM
+			"DefaultValue": "30" // time between ads being sent in seconds. DO NOT SPAM
 		},
 		{
 			"Name": "sa_ads_enabled",
