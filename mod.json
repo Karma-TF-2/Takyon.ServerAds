@@ -19,11 +19,11 @@
 		},
 		{
 			"Name": "sa_probability_kill",
-			"DefaultValue": "0.3" // probability of ads with kill tag getting posted when a player dies | 0.0: never | 1.0: always
+			"DefaultValue": "0.5" // probability of ads with kill tag getting posted when a player dies | 0.0: never | 1.0: always
 		},
 		{
 			"Name": "sa_probability_connected",
-			"DefaultValue": "0.4" // probability of ads with connected tag getting posted when a player connects | 0.0: never | 1.0: always
+			"DefaultValue": "1.0" // probability of ads with connected tag getting posted when a player connects | 0.0: never | 1.0: always
 		}
 	],
 	"Scripts": [
