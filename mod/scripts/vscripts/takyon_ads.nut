@@ -33,7 +33,7 @@ void function AdInit(){
     
     // example of ad with color
     Ad ad4
-    ad4.message = format("%s To vote to skip the map, type !rtv or !skip in chat.", "\x1b[38;2;220;220;0m"")
+    ad4.message = format("%s To vote to skip the map, type !rtv or !skip in chat.", "\x1b[38;2;220;220;0m")
     ad4.priority = 1
     sa_ads.append(ad4)
 
