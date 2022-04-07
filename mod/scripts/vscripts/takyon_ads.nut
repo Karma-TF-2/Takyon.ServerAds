@@ -21,13 +21,13 @@ void function AdInit(){
     
     // example of ad that triggers wen a client connects but can also trigger in the usual loop of ads
     Ad ad2
-    ad2.message = format("%s Cheater? Troublemaker? Bug Report? Make a ticket in our Discord at discord.gg/karmagaming", "\x1b[38;2;220;220;0m")
+    ad2.message = format("%s Cheater? Troublemaker? Bug Report? Make a ticket in the Karma Discord at discord.gg/karmagaming", "\x1b[38;2;220;220;0m")
     ad2.priority = 1
     sa_ads.append(ad2)
     
     // example of ad that triggers on kill but can also trigger in the usual loop of ads
     Ad ad3 
-    ad3.message = format("%s Want a tutorial? Join our Discord at karma-gaming.net/go/kraber9k to find Slimeafro's video.", "\x1b[38;2;0;135;220m")
+    ad3.message = format("%s Want a tutorial? Join the Kraber9k Discord at karma-gaming.net/go/kraber9k to find Slimeafro's video.", "\x1b[38;2;0;135;220m")
     ad3.priority = 1
     sa_ads.append(ad3)
     
