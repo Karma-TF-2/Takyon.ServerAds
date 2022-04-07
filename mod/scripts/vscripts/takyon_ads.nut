@@ -38,8 +38,8 @@ void function AdInit(){
     sa_ads.append(ad4)
 
     // example of ad with color
-    Ad ad4
-    ad4.message = format("%s[Karma]%s Join the Karma Discord at discord.gg/karmagaming and the Kraber9k Discord at karma-gaming.net/go/kraber9k", "\x1b[38;2;220;220;0m", "\x1b[38;2;0;135;220m")
-    ad4.priority = 2
-    sa_ads.append(ad4)
+    Ad ad5
+    ad5.message = format("%s[Karma]%s Join the Karma Discord at discord.gg/karmagaming and the Kraber9k Discord at karma-gaming.net/go/kraber9k", "\x1b[38;2;220;220;0m", "\x1b[38;2;0;135;220m")
+    ad5.priority = 2
+    sa_ads.append(ad5)
 }
