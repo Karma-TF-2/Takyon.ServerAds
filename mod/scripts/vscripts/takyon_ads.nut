@@ -21,7 +21,7 @@ void function AdInit(){
     
     // example of ad that triggers wen a client connects but can also trigger in the usual loop of ads
     Ad ad2
-    ad2.message = format("%s Cheater? Troublemaker? Bug Report? Make a ticket in the Karma Discord at discord.gg/karmagaming", "\x1b[38;2;220;220;0m")
+    ad2.message = format("%s Cheater? Troublemaker? Bug Report? Make a ticket in the Karma Discord at karma-gaming.net/go/discord", "\x1b[38;2;220;220;0m")
     ad2.priority = 1
     sa_ads.append(ad2)
     
@@ -39,7 +39,7 @@ void function AdInit(){
 
     // example of ad with color
     Ad ad5
-    ad5.message = format("%s Join the Karma Discord at discord.gg/karmagaming and the Kraber9k Discord at karma-gaming.net/go/kraber9k", "\x1b[38;2;0;135;220m")
+    ad5.message = format("%s Join the Karma Discord at karma-gaming.net/go/discord and the Kraber9k Discord at karma-gaming.net/go/kraber9k", "\x1b[38;2;0;135;220m")
     ad5.priority = 1
     sa_ads.append(ad5)
 }
