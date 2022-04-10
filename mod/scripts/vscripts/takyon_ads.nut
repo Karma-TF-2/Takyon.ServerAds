@@ -42,4 +42,17 @@ void function AdInit(){
     ad5.message = format("%s Join the Karma Discord at karma-gaming.net/go/discord and the Kraber9k Discord at karma-gaming.net/go/kraber9k", "\x1b[38;2;0;135;220m")
     ad5.priority = 1
     sa_ads.append(ad5)
+
+    // example of ad with color
+    Ad ad6
+    ad6.message = format("%s To vote to balance teams by K/D, type !balance in chat.", "\x1b[38;2;0;135;220m")
+    ad6.priority = 1
+    sa_ads.append(ad6)
+    
+        // example of ad with color
+    Ad ad7
+    ad7.message = format("%s To vote to extend the map time, type !extend in chat.", "\x1b[38;2;220;220;0m")
+    ad7.priority = 1
+    sa_ads.append(ad7)
+
 }
