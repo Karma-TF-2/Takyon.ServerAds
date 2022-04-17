@@ -57,13 +57,13 @@ void function AdInit(){
 
     // example of ad with color
     Ad ad8
-    ad8.message = format("%s To see top ranked players, type %s!top %sand to see top speed players, type %s!topspeed %sin chat.", "\x1b[38;2;220;220;0m", "\x1b[38;2;220;50;50m", "\x1b[38;2;220;220;0m", "\x1b[38;2;220;50;50m", "\x1b[38;2;220;220;0m")
+    ad8.message = format("%s To see top ranked players, type %s!top %sand to see top speed players, type %s!topspeed %s.", "\x1b[38;2;220;220;0m", "\x1b[38;2;220;50;50m", "\x1b[38;2;220;220;0m", "\x1b[38;2;220;50;50m", "\x1b[38;2;220;220;0m")
     ad8.priority = 1
     sa_ads.append(ad8)
     
     // example of ad with color
     Ad ad9
-    ad9.message = format("%s To opt out of ranks, type %s!track %sand to disable point messages, type %s!pointfeed %sin chat.", "\x1b[38;2;220;220;0m", "\x1b[38;2;220;50;50m", "\x1b[38;2;220;220;0m", "\x1b[38;2;220;50;50m", "\x1b[38;2;220;220;0m")
+    ad9.message = format("%s To opt out of ranks, type %s!track %sand to disable point messages, type %s!pointfeed %s.", "\x1b[38;2;220;220;0m", "\x1b[38;2;220;50;50m", "\x1b[38;2;220;220;0m", "\x1b[38;2;220;50;50m", "\x1b[38;2;220;220;0m")
     ad9.priority = 1
     sa_ads.append(ad9)
 }
