@@ -63,7 +63,7 @@ void function SA_ClientConnectedCallback(entity player){
 
 void function PostAd(){
 	if(adsWithPrio.len() > 0 && GetConVarBool("sa_ads_enabled"))
-		Chat_ServerBroadcast(adsWithPrio[rndint(adsWithPrio.len() - 1)].message)
+		Chat_ServerBroadcast(adsWithPrio[rndint(adsWithPrio.len())].message)
 }
 
 void function LoadAds(){
